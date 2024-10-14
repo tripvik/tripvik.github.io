@@ -1,12 +1,12 @@
 ---
 layout: post  
-title: Resolving Bot Connectivity Issues in Azure Deployment Slots  
+title: Direct Line App Service Extension Bot Connectivity Issues with Azure Deployment Slots  
 date: 2024-10-14 02:57 +0000
 ---
 
 ## Introduction
 
-If you're working with bots running on Azure Web Apps and using deployment slots, you may encounter some unexpected connectivity issues. In this post, I'll walk you through a recent problem we faced where our bot's Direct Line configuration flags unexpectedly flipped after switching deployment slots, leading to a frustrating 502 error. After troubleshooting, we identified the root cause and implemented a straightforward configuration fix that restored connectivity. Here's how we resolved it.
+If you're working with an Azure Bot using the Direct Line App Service extension and deployment slots, you may encounter some unexpected connectivity issues. In this post, I'll walk you through a recent problem we faced where one slot's Direct Line configuration flags were always set to `False`, resulting in a frustrating 502 error. After troubleshooting, we identified the root cause and applied a simple configuration fix that restored connectivity. Here's how we resolved it.
 
 ## The Problem
 
