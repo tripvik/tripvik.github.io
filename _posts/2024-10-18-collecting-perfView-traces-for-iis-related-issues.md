@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Comprehensive Guide: Collecting PerfView Traces for IIS-Related Issues
-date: 2024-10-18 13:26 +0000
+date: 2024-10-01 12:12 +0000
 ---
 
 Troubleshooting IIS (Internet Information Services) issues can be challenging, but with the right tools and approach, you can quickly identify and resolve problems. PerfView is a powerful performance analysis tool that can provide invaluable insights into IIS-related issues. This guide will walk you through the process of collecting PerfView traces effectively.
