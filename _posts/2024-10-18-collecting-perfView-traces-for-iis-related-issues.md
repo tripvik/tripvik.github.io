@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comprehensive Guide: Collecting PerfView Traces for IIS-Related Issues
+title: How to Collect PerfView Traces for IIS Related Troubleshooting
 date: 2024-10-01 12:12 +0000
 ---
 
